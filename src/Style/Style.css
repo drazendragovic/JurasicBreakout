@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2018, 9:44:02 PM
+    Author     : Drazen Dragovic
+*/
+
+#buttonDG {
+    -fx-background-color: 
+        linear-gradient(#023256 0%, #002744 25%, #011f35 75%, #02121e 100%),
+        linear-gradient(#023f6d, #01233d),
+        linear-gradient(#1f6193 0%, #2b88ce 20%, #339ae8 80%, #1e5f91 100%),
+        linear-gradient(#036bba 0%, #0d5e9b 20%, #064c82 80%, #033f6d 100%),
+        linear-gradient(#0f4f7f 0%, #0a3d63 50%, #083556 51%, #062b47 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#buttonDG Text {
+    -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+}
+
+#buttonDG:hover {
+    -fx-effect: dropshadow( one-pass-box , darkred , 10, 2.0 , 0 , -1 );
+}
+
+#buttonDG:pressed {
+    -fx-background-color: 
+        linear-gradient(#0f4f7f 0%, #0a3d63 50%, #083556 51%, #062b47 100%),
+        linear-gradient(#036bba 0%, #0d5e9b 20%, #064c82 80%, #033f6d 100%),
+        linear-gradient(#1f6193 0%, #2b88ce 20%, #339ae8 80%, #1e5f91 100%),
+        linear-gradient(#023f6d, #01233d),
+        linear-gradient(#023256 0%, #002744 25%, #011f35 75%, #02121e 100%);
+    -fx-font-size: 12px;
+}
+
+#buttonDGPLl {
+    -fx-background-color: 
+        linear-gradient(#a30303 0%, #820303 25%, #700202 75%, #5e0000 100%),
+        linear-gradient(#7a0909, #8e0b0b),
+        linear-gradient(#ce1616 0%, #912424 20%, #821a1a 80%, #6d1212 100%),
+        linear-gradient(#ad0d0d 0%, #8e0808 20%, #680505 80%, #5b0606 100%),
+        linear-gradient(#991313 0%, #7a0f0f 50%, #540b0b 51%, #350707 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+
+#buttonDGPLl Text {
+    -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+}
+
+#buttonDGPLl:hover {
+    -fx-effect: dropshadow( one-pass-box , darkred , 10, 2.0 , 0 , -1 );
+}
+
+#buttonDGPLl:pressed {
+    -fx-background-color: 
+        linear-gradient(#991313 0%, #7a0f0f 50%, #540b0b 51%, #350707 100%),
+        linear-gradient(#ad0d0d 0%, #8e0808 20%, #680505 80%, #5b0606 100%),
+        linear-gradient(#ce1616 0%, #912424 20%, #821a1a 80%, #6d1212 100%),
+        linear-gradient(#7a0909, #8e0b0b),
+        linear-gradient(#a30303 0%, #820303 25%, #700202 75%, #5e0000 100%);
+    -fx-font-size: 12px;
+}
+
+#anpPlayers{
+    -fx-background-color: 
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#3a3a3a, #020b02);
+}
+
+.dinrect {
+
+}
+
+.text-input {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-text-inner-color: white;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 16px;
+}
+
+#infoPane {
+    -fx-background-color: #2a2b2a;
+    -fx-background-radius : 30;
+    -fx-border-radius : 30;
+}
+
+#infoTxt {
+    -fx-control-inner-background: #2a2b2a; 
+    -fx-text-alignment: center;
+
+}
+
+.infotxt {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-text-inner-color: darkred;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 20px;
+
+}
+
+#spInfo {
+    -fx-background-color: #020b02;
+    -fx-background-radius : 30;
+    -fx-border-radius : 30;
+    -fx-border-color: grey;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow( one-pass-box , grey , 20, 0.3 , 0 , 0 );
+}
+
+#pnChat{
+    -fx-background-color: #020b02;
+}
+
+#tfMessage {
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-text-inner-color: white;
+    -fx-font-family: "Arial";
+    -fx-font-size: 12px;
+}
+
+#fpMessages {
+    -fx-background-color: #020b02;
+}
+
+#scpChat .viewport {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-border-radius : 30;
+}
+
+.optTitle {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-text-inner-color: darkred;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 24px;
+}
+
+#buttonGO {
+    -fx-background-color: 
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-padding: 15 30 15 30;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+}
+#buttonGO Text {
+    -fx-effect: dropshadow( one-pass-box , black , 0, 0.0 , 0 , -1 );
+}
+
+#buttonGO:hover {
+    -fx-effect: dropshadow( one-pass-box , darkred , 10, 2.0 , 0 , -1 );
+}
+
+#buttonGO:pressed {
+    -fx-background-color: 
+        linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%),
+        linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+        linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+        linear-gradient(#020b02, #3a3a3a),
+        linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%);
+    -fx-font-size: 8px;
+}
+
+
+#fileName {
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+}
+
+#mainloadList {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 20px;
+    -fx-font-weight: normal;
+    -fx-text-fill: black;
+}
+
+#loadList {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-font-family: "Tribeca";
+    -fx-font-size: 18px;
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+}
+
+
+/*.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+    -fx-text-fill: white;
+    -fx-control-inner-background: blue;
+
+}
+
+Color of the custom control hover
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+Color of the list cell
+.list-view .list-cell,
+.list-view .list-cell:filled,
+.list-view .list-cell:selected,
+.list-view .list-cell:focused,
+.list-view .list-cell:hover {
+    -fx-background-color: blue;
+    -fx-control-inner-background: blue;
+}
+
+Color of the custom control selected
+.list-view .list-cell:filled:selected:focused,
+.list-view .list-cell:filled:selected {
+    -fx-background-color: green;
+}*/

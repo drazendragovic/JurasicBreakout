@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="infoPane" fx:id="apInfo" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" stylesheets="@../Style/Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screens.InfoScreenController">
+   <children>
+      <TextField alignment="CENTER" focusTraversable="false" layoutX="16.0" layoutY="14.0" styleClass="infotxt" stylesheets="@../Style/Style.css" text="WELCOME TO" />
+      <TextField alignment="CENTER" focusTraversable="false" layoutX="16.0" layoutY="46.0" styleClass="infotxt" stylesheets="@../Style/Style.css" text="JURASIC BREAKOUT" />
+      <TextField alignment="CENTER" focusTraversable="false" layoutX="43.0" layoutY="182.0" text="Controls" />
+   </children>
+</AnchorPane>
